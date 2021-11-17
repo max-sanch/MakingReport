@@ -1,6 +1,12 @@
+from makingreport.handlers import report_data
+
+
 def main():
-    pass
+    report_data.get()
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as err:
+        print('Exception:', err)
