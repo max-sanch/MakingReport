@@ -1,4 +1,5 @@
 *.pyc
+tasks
 
 # IntelliJ / PyCharm IDE
 .idea/
