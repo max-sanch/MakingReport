@@ -1,0 +1,7 @@
+*.pyc
+
+# IntelliJ / PyCharm IDE
+.idea/
+
+# Common virtualenv names
+venv
