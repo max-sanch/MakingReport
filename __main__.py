@@ -11,3 +11,5 @@ if __name__ == "__main__":
 		main()
 	except Exception as err:
 		print('Exception:', err)
+	else:
+		print('Completed successfully!')
